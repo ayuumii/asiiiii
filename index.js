@@ -36,15 +36,3 @@ const headerLogoConatiner = document.querySelector('.header__logo-container')
 headerLogoConatiner.addEventListener('click', () => {
   location.href = 'index.html'
 })
-
-// contactForm.js
-document.addEventListener("DOMContentLoaded", function() {
-  // Add event listener to the form submission
-  document.getElementById("contactForm").addEventListener("submit", function(event) {
-      // Prevent the default form submission behavior
-      event.preventDefault();
-      
-      // Redirect the user to the Google Form after submitting the contact form
-      window.open("https://forms.gle/fLwU1t6XZTLRcPxh8", "_blank");
-  });
-});
